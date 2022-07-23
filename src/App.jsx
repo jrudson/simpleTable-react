@@ -106,6 +106,7 @@ const App = () => {
   }
 
   const handleDeleteClick = (contactId) => {
+    
     const newContacts = [...contacts];
     const index = contacts.findIndex((contact) => contact.id === contactId);
 
